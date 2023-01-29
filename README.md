@@ -1,3 +1,5 @@
 # Natours site
 
-### Change branches to checkout other projects
+### Install NODE-SASS and type compile:sass to checkout this project
+
+##### Change branches to checkout other projects
