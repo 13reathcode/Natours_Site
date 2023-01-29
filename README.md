@@ -1,7 +1,7 @@
-# Natours | Float layout practice site
+# Natours | Float layout practice website | First course project
 
 ```
-Install NODE-SASS and type compile:sass in cmd to make this site working
+Install node-sass with dev. dependecies (npm i node-sass --save-dev) and type compile:sass in cmd to make this site work!
 ```
 
-### Change branches to checkout other projects
+### You can always change branches to checkout other projects ^^
