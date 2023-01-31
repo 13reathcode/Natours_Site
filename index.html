@@ -63,7 +63,7 @@
                     <span class="heading-primary--main">Outdoors</span>
                     <span class="heading-primary--sub">is where life happens</span>
                 </h1>
-                <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+                <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
             </div>
         </header>
 
@@ -94,7 +94,7 @@
                             exercitationem voluptatibus aperiam
                         </p>
 
-                        <a href="#" class="btn-text">Learn more &rarr;</a>
+                        <a href="#section-book" class="btn-text">Learn more &rarr;</a>
                     </div>
                     <div class="col-1-of-2">
                         <div class="composition">
@@ -197,7 +197,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">297$</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#section-book" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -227,7 +227,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">497$</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#section-book" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -257,7 +257,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">897$</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#section-book" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -327,7 +327,7 @@
                 </div>
 
                 <div class="u-center-text u-margin-top-huge">
-                    <a href="#" class="btn-text">Read all stories &rarr;</a>
+                    <a href="#popup" class="btn-text">Read all stories &rarr;</a>
                 </div>
             </section>
 
@@ -445,6 +445,39 @@
             </div>
         </footer>
 
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
+                    <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
+                </div>
+                <div class="popup__right">
+                    <a href="#" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        Important &ndash; Please read these terms before booking
+                    </h3>
+                    <p class="popup__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Sed sed risus pretium
+                        quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis mauris sit
+                        amet massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla
+                        pellentesque dignissim enim sit. Vitae semper quis lectus nulla at volutpat
+                        diam ut venenatis. Malesuada pellentesque elit eget gravida cum sociis
+                        natoque penatibus et. Proin fermentum leo vel orci porta non pulvinar neque
+                        laoreet. Gravida neque convallis a cras semper. Molestie at elementum eu
+                        facilisis sed odio morbi quis. Faucibus vitae aliquet nec ullamcorper sit
+                        amet risus nullam eget. Nam libero justo laoreet sit. Amet massa vitae
+                        tortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna
+                        etiam. Imperdiet sed euismod nisi porta.
+                    </p>
+                    <a href="#Section-tours" class="btn btn--green">Book now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay hidden"></div>
+
         <script>
             const nav_checkbox = document.getElementById('navi-toggle');
 
@@ -462,51 +495,5 @@
                 }
             });
         </script>
-
-        <!-- <section class="grid-test">
-            <div class="row">
-                <div class="col-1-of-2">col-1-of-2</div>
-                <div class="col-1-of-2">col-1-of-2</div>
-            </div>
-
-            <div class="row">
-                <div class="col-1-of-3">col-1-of-3</div>
-                <div class="col-1-of-3">col-1-of-3</div>
-                <div class="col-1-of-3">col-1-of-3</div>
-            </div>
-
-            <div class="row">
-                <div class="col-1-of-3">col-1-of-3</div>
-                <div class="col-2-of-3">col-2-of-3</div>
-            </div>
-
-            <div class="row">
-                <div class="col-1-of-4">col-1-of-4</div>
-                <div class="col-1-of-4">col-1-of-4</div>
-                <div class="col-1-of-4">col-1-of-4</div>
-                <div class="col-1-of-4">col-1-of-4</div>
-            </div>
-
-            <div class="row">
-                <div class="col-1-of-4">col-1-of-4</div>
-                <div class="col-1-of-4">col-1-of-4</div>
-                <div class="col-2-of-4">col-2-of-4</div>
-            </div>
-
-            <div class="row">
-                <div class="col-1-of-4">col-1-of-4</div>
-                <div class="col-3-of-4">col-3-of-4</div>
-            </div>
-
-            <div class="row">
-                <div class="col-2-of-4">col-1-of-4</div>
-                <div class="col-2-of-4">col-3-of-4</div>
-            </div>
-
-            <div class="row">
-                <div class="col-3-of-4">col-1-of-4</div>
-                <div class="col-1-of-4">col-3-of-4</div>
-            </div>
-        </section> -->
     </body>
 </html>
