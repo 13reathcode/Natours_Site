@@ -38,11 +38,13 @@ body {
     font-size: 3.5rem;
     text-transform: uppercase;
     font-weight: 700;
+
     display: inline-block;
     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
 
-    // In duo
+    // In trio
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
 
     letter-spacing: 2px;
