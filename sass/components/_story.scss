@@ -1,19 +1,21 @@
 .story {
     width: 75%;
     margin: 0 auto;
-    box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
+    box-shadow: 0 3rem 6rem rgba($color-black, 0.3);
     background-color: $color-white;
     border-radius: 3px;
     padding: 6rem;
     padding-left: 9rem;
     font-size: $default-font-size;
     transform: skewX(-12deg);
+    cursor: pointer;
 
     &__shape {
         width: 15rem;
         height: 15rem;
 
         float: left;
+        position: relative;
 
         -webkit-shape-outside: circle(50% at 50% 50%);
         shape-outside: circle(50% at 50% 50%);
@@ -25,9 +27,37 @@
 
     &__image {
         height: 100%;
+        transform: translateX(-4rem) scale(1.4);
+        transition: all 0.5s;
+        // Fixed bug
+        backface-visibility: hidden;
     }
 
     &__text {
         transform: skewX(12deg);
+    }
+
+    &__caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 20%);
+        color: $color-white;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.7rem;
+        opacity: 0;
+        transition: all 0.5s;
+        backface-visibility: hidden;
+    }
+
+    &:hover &__caption {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+
+    &:hover &__image {
+        transform: translateX(-4rem) scale(1);
+        filter: blur(3px) brightness(80%);
     }
 }
