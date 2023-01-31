@@ -1,14 +1,15 @@
 {
-  "name": "natours",
-  "version": "1.0.0",
-  "description": "Natours project",
-  "main": "index.js",
-  "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
-  },
-  "author": "13reath",
-  "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^8.0.0"
-  }
+    "name": "natours",
+    "version": "1.0.0",
+    "description": "Natours project",
+    "main": "index.js",
+    "scripts": {
+        "sass:watch": "node-sass sass/main.scss css/style.css -w",
+        "compile:sass": "npm run sass:watch && npm run compile:sass -- -w"
+    },
+    "author": "13reath",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^8.0.0"
+    }
 }
