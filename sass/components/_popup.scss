@@ -71,10 +71,6 @@
         visibility: visible;
     }
 
-    &__show {
-        display: block;
-    }
-
     &:target &__content {
         opacity: 1;
         transform: translate(-50%, -50%) scale(1);
