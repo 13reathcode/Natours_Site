@@ -12,7 +12,7 @@
 
     `npm i live-server -g`
 
-3. Run both scripts writing command bellow | If you skipped step №2 then just write second command
+3. Run both scripts by writing first command bellow | If you skipped step №2 then just write second command
 
     First: `npm run start` Second: `npm run watch:sass`
 
