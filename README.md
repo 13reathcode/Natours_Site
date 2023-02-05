@@ -1,11 +1,21 @@
 # Natours | Float layout practice website | First project
 
-1. Install node-sass with dev. dependecies.
+### You can checkout it on https://natours-13reath.netlify.app/
 
-    - npm i node-sass --save-dev
+## In order for this to work you need to follow these steps:
 
-2. Type compile:sass in cmd to make this site work!
+1. Install node-sass with dev. dependecies (If you wanna change something) or simply --save (-S).
 
-    - In the same directory of course
+    `npm i node-sass -D`
 
-### You can always change branches to checkout other projects ^^
+2. Install live-server (optinal) locally or globaly (i prefer this).
+
+    `npm i live-server -g`
+
+3. Run both scripts writing command bellow | If you skipped step №2 then just write second command
+
+    First: `npm run start` Second: `npm run watch:sass`
+
+#### Other scripts used for build proccess you can checkout in package.json foulder
+
+## Also look into my other projects simply by changing branches/repos ^^
