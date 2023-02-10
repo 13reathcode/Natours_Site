@@ -1,6 +1,6 @@
 # Natours | Float layout practice website 
 
-### You can checkout it on https://natours-13reath.netlify.app/
+### You can checkout it on [DEMO-NATOURS](https://natours-13reath.netlify.app)
 
 ## In order for this to work you need to follow these steps:
 
