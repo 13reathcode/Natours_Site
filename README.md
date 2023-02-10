@@ -1,4 +1,4 @@
-# Natours | Float layout practice website | First project
+# Natours | Float layout practice website 
 
 ### You can checkout it on https://natours-13reath.netlify.app/
 
